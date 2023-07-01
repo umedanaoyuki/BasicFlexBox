@@ -10,21 +10,23 @@
   height: 80px;
   background-color: pink;
   align-self: center;
+  flex: 1;
 }
 
 .item-2 {
   width: 80px;
   height: 80px;
   background-color: skyblue;
-  order: 1;
+  flex: 2;
 }
 
 .item-3 {
   width: 80px;
   height: 80px;
   background-color: orange;
+  flex: 1;
 }
-
+/* 
 .item-4 {
   width: 80px;
   height: 80px;
@@ -35,4 +37,4 @@
   width: 80px;
   height: 80px;
   background-color: tomato;
-}
+} */
