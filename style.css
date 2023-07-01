@@ -4,6 +4,7 @@
   border: 8px solid blue;
   display: inline-flex;
   width: 280px;
+  flex-direction: column-reverse;
 }
 
 .item-1 {
