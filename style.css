@@ -2,9 +2,9 @@
 
 .container {
   border: 8px solid blue;
-  display: inline-flex;
-  width: 280px;
-  flex-direction: column-reverse;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
 }
 
 .item-1 {
