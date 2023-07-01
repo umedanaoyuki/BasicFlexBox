@@ -3,7 +3,6 @@
 .container {
   border: 8px solid blue;
   display: flex;
-  height: 240px;
 }
 
 .item-1 {
@@ -17,7 +16,7 @@
   width: 80px;
   height: 80px;
   background-color: skyblue;
-  margin-left: auto;
+  order: 1;
 }
 
 .item-3 {
