@@ -1,40 +1,21 @@
 @charset "utf-8";
 
-.container {
-  border: 8px solid blue;
-  display: flex;
+body {
+  margin: 0;
 }
 
-.item-1 {
-  width: 80px;
-  height: 80px;
+header {
   background-color: pink;
-  align-self: center;
-  flex: 1;
 }
 
-.item-2 {
-  width: 80px;
-  height: 80px;
+main {
   background-color: skyblue;
-  flex: 2;
 }
 
-.item-3 {
-  width: 80px;
-  height: 80px;
+aside {
   background-color: orange;
-  flex: 1;
 }
-/* 
-.item-4 {
-  width: 80px;
-  height: 80px;
+
+footer {
   background-color: silver;
 }
-
-.item-5 {
-  width: 80px;
-  height: 80px;
-  background-color: tomato;
-} */
