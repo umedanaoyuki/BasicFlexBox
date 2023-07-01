@@ -3,21 +3,21 @@
 .container {
   border: 8px solid blue;
   display: flex;
-  width: 280px;
-  flex-wrap: wrap;
-  gap: calc((280px - 80px * 3) /2);
+  height: 240px;
 }
 
 .item-1 {
   width: 80px;
   height: 80px;
   background-color: pink;
+  align-self: center;
 }
 
 .item-2 {
   width: 80px;
   height: 80px;
   background-color: skyblue;
+  margin-left: auto;
 }
 
 .item-3 {
