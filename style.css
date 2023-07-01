@@ -8,12 +8,18 @@ header {
   background-color: pink;
 }
 
+.container {
+  display: flex;
+}
+
 main {
   background-color: skyblue;
+  flex: 1;
 }
 
 aside {
   background-color: orange;
+  width: 160px;
 }
 
 footer {
