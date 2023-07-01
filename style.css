@@ -17,6 +17,12 @@ main {
   flex: 1;
 }
 
+nav {
+  background-color: red;
+  width: 160px;
+  order: -1;
+}
+
 aside {
   background-color: orange;
   width: 160px;
